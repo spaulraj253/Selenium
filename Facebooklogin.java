@@ -11,7 +11,7 @@ public class Facebooklogin {
 		driver.findElement(By.id("email")).sendKeys("testleaf.2023@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("Tuna@321");
 		driver.findElement(By.name("login")).click();
-		driver.findElement(By.linkText("Find your account and lof in.")).click();     
+		driver.findElement(By.linkText("Find your account and log in.")).click();     
 	    
 	    String title=driver.getTitle();
 	    System.out.println("Original Title is" +title);
